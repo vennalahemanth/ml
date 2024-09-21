@@ -16,7 +16,7 @@ st.title("Total Revenue Prediction App")
 @st.cache_data  # Caching the data for performance
 def load_data():
      # Adjust if needed
-    return pd.read_excel(r"C:\Users\heman\OneDrive\Desktop\WEEK-4\Online Sales Data.xlsx")
+    return pd.read_excel("Online Sales Data.xlsx")
 
 sales_data = load_data()
 
